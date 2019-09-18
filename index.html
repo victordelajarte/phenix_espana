@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PHENIX España</title>
+
+    <style>
+      @font-face {
+        font-family: "Gotham";
+        font-display: swap;
+        src: url("Fonts/gotham-light.woff2") format("woff2"), url("Fonts//gotham-light.woff") format("woff"), url("Fonts//gotham-light.otf") format("opentype");
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Gotham";
+        font-display: swap;
+        src: url("Fonts//gotham-medium.woff2") format("woff2"), url("Fonts//gotham-medium.woff") format("woff"),
+          url("Fonts//gotham-medium.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Gotham";
+        font-display: swap;
+        src: url("Fonts//gotham-bold.woff2") format("woff2"), url("Fonts//gotham-bold.woff") format("woff"), url("Fonts//gotham-bold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Gotham";
+        font-display: swap;
+        src: url("Fonts//gotham-black.woff2") format("woff2"), url("Fonts//gotham-black.woff") format("woff"), url("Fonts//gotham-black.otf") format("opentype");
+        font-weight: 900;
+        font-style: normal;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        background: #019cde;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.6em;
+        color: white;
+        font-weight: 100;
+        font-family: Gotham, Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        display: block;
+      }
+
+      .logo {
+        max-height: 10vh;
+        max-width: 80vw;
+        margin-top: 2em;
+      }
+
+      .mail {
+        width: 50px;
+        margin-right: 5px;
+        display: inline-block;
+      }
+
+      .map {
+        flex: 1;
+        min-width: 20vw;
+        display: flex;
+        max-width: 80vw;
+        margin: 0 auto;
+      }
+
+      .map img {
+        max-width: 100%;
+        object-fit: contain;
+        margin: auto;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4% 15%;
+      }
+
+      .text-container {
+        flex: 2;
+        padding: 0 15%;
+      }
+
+      strong {
+        font-weight: 900;
+      }
+
+      p {
+        margin-bottom: 1em;
+      }
+
+      .contact {
+        display: flex;
+        align-items: center;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="logo" src="phenix_logo_blanc.png" alt="logo phenix" />
+    <div class="container">
+      <div class="map">
+        <img src="map-ES+PT-antennes-500.png" alt="Carte phenix Espagne" />
+      </div>
+
+      <div class="text-container">
+        <p>
+          En Phenix, pensamos que los <strong>desechos y restos son recursos.</strong> Estamos convencidos de que cada residuo tiene un
+          <strong>valor</strong> para quien sabe encontrarlo.
+        </p>
+        <p>Cada día, imaginamos y buscamos soluciones para devolver valor a cada invendido y cada desecho, sin importar su condición.</p>
+        <p>
+          Nuestra ambición es conseguir que la <strong>economía circular</strong> sea el nuevo modo de <strong>gestión de desecho.</strong> Partimos del
+          principio de que los <strong>sobrantes</strong> y desechos <strong>no son residuos</strong> sino recursos.
+        </p>
+        <p style="margin-top:2em;margin-bottom:0em;font-weight:900">Contacto :</p>
+        <span class="contact">
+          <img class="mail" src="logo_mail.png" alt="logo phenix" />&nbsp;<a href="mailto:esp@wearephenix.com">esp@wearephenix.com</a>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
